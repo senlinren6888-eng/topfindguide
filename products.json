@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Zulay Kitchen Spoon Rest - Heat-Resistant Silicone Drip Pad",
+    "price": "$7.59",
+    "category": "Home & Kitchen",
+    "asin": "B07PVBS863",
+    "image": "https://m.media-amazon.com/images/I/71T2MibEcOL._AC_SL1000_.jpg",
+    "rating": 4.7,
+    "reviews": 42700
+  },
+  {
+    "name": "TrendPlain 16oz Glass Olive Oil Sprayer for Cooking",
+    "price": "$8.99",
+    "category": "Home & Kitchen",
+    "asin": "B0CJF94M8J",
+    "image": "https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg",
+    "rating": 4.6,
+    "reviews": 40000
+  },
+  {
+    "name": "medicube Collagen Jelly Cream - Niacinamide & Collagen",
+    "price": "$14.90",
+    "category": "Beauty & Personal Care",
+    "asin": "B0DGPSZVW3",
+    "image": "https://m.media-amazon.com/images/I/61aDluwKSxL._AC_SL1000_.jpg",
+    "rating": 4.4,
+    "reviews": 27100
+  },
+  {
+    "name": "medicube PDRN Pink Peptide Serum with Salmon DNA",
+    "price": "$18.90",
+    "category": "Beauty & Personal Care",
+    "asin": "B0DBF65JYY",
+    "image": "https://m.media-amazon.com/images/I/615DOoCI6xL._AC_SL1000_.jpg",
+    "rating": 4.6,
+    "reviews": 15300
+  },
+  {
+    "name": "Best Pet Supplies Interactive Squeaky Dog Chew Toy",
+    "price": "$5.99",
+    "category": "Pet Supplies",
+    "asin": "B09BBL8T4Z",
+    "image": "https://m.media-amazon.com/images/I/61AbA6dtYJL._AC_SL1000_.jpg",
+    "rating": 4.3,
+    "reviews": 49900
+  },
+  {
+    "name": "Chuckit! Ultra Fetch Stick - Interactive Outdoor Dog Toy",
+    "price": "$6.94",
+    "category": "Pet Supplies",
+    "asin": "B07SK3R2C3",
+    "image": "https://m.media-amazon.com/images/I/81f+3nxhjZL._AC_SL1000_.jpg",
+    "rating": 4.6,
+    "reviews": 19000
+  },
+  {
+    "name": "JTEMAN Phone Stand with Bluetooth Speaker & HD Sound",
+    "price": "$18.98",
+    "category": "Electronics",
+    "asin": "B08GC1G4Y9",
+    "image": "https://m.media-amazon.com/images/I/71qQOOCSbjL._AC_SL1000_.jpg",
+    "rating": 4.5,
+    "reviews": 17500
+  },
+  {
+    "name": "IUT Push Up Board 15-in-1 Home Workout Equipment",
+    "price": "$19.99",
+    "category": "Sports & Outdoors",
+    "asin": "B0CQP17FZW",
+    "image": "https://m.media-amazon.com/images/I/71JcqgFidcL._AC_SL1000_.jpg",
+    "rating": 4.5,
+    "reviews": 4700
+  }
+]
