@@ -177,14 +177,22 @@
 
   <script>
     const PRODUCTS = [
-      {name:"Zulay Kitchen Spoon Rest — Heat-Resistant Silicone",price:"$7.59",category:"Home & Kitchen",asin:"B07PVBS863",image:"https://m.media-amazon.com/images/I/71T2MibEcOL._AC_SL1000_.jpg",rating:4.7,reviews:42700},
-      {name:"TrendPlain 16oz Glass Olive Oil Sprayer for Cooking",price:"$8.99",category:"Home & Kitchen",asin:"B0CJF94M8J",image:"https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg",rating:4.6,reviews:40000},
-      {name:"medicube Collagen Jelly Cream — Niacinamide & Collagen",price:"$14.90",category:"Beauty & Personal Care",asin:"B0DGPSZVW3",image:"https://m.media-amazon.com/images/I/61aDluwKSxL._AC_SL1000_.jpg",rating:4.4,reviews:27100},
-      {name:"medicube PDRN Pink Peptide Serum with Salmon DNA",price:"$18.90",category:"Beauty & Personal Care",asin:"B0DBF65JYY",image:"https://m.media-amazon.com/images/I/615DOoCI6xL._AC_SL1000_.jpg",rating:4.6,reviews:15300},
-      {name:"Best Pet Supplies Interactive Squeaky Dog Chew Toy",price:"$5.99",category:"Pet Supplies",asin:"B09BBL8T4Z",image:"https://m.media-amazon.com/images/I/61AbA6dtYJL._AC_SL1000_.jpg",rating:4.3,reviews:49900},
-      {name:"Chuckit! Ultra Fetch Stick — Interactive Dog Toy",price:"$6.94",category:"Pet Supplies",asin:"B07SK3R2C3",image:"https://m.media-amazon.com/images/I/81f+3nxhjZL._AC_SL1000_.jpg",rating:4.6,reviews:19000},
-      {name:"JTEMAN Phone Stand with Bluetooth Speaker & HD Sound",price:"$18.98",category:"Electronics",asin:"B08GC1G4Y9",image:"https://m.media-amazon.com/images/I/71qQOOCSbjL._AC_SL1000_.jpg",rating:4.5,reviews:17500},
-      {name:"IUT Push Up Board 15-in-1 Home Workout Equipment",price:"$19.99",category:"Sports & Outdoors",asin:"B0CQP17FZW",image:"https://m.media-amazon.com/images/I/71JcqgFidcL._AC_SL1000_.jpg",rating:4.5,reviews:4700}
+      {name:"TrendPlain 16oz Glass Olive Oil Sprayer — 2 in 1 Dispenser for Cooking & Air Fryer",price:"$8.99",category:"Home & Kitchen",asin:"B0CJF94M8J",image:"https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg",rating:4.6,reviews:40900},
+      {name:"Zulay Kitchen Silicone Spoon Rest — High Heat-Resistant, BPA-Free Utensil Holder",price:"$7.59",category:"Home & Kitchen",asin:"B07PVBS863",image:"https://m.media-amazon.com/images/I/71T2MibEcOL._AC_SL1000_.jpg",rating:4.7,reviews:42800},
+      {name:"Stainless Steel Onion Holder for Slicing — Onion Cutter, Safe Grip, Avocado Tool",price:"$4.97",category:"Home & Kitchen",asin:"B08TWN43G4",image:"https://m.media-amazon.com/images/I/71GTPDTsoPL._AC_SL1000_.jpg",rating:4.6,reviews:5400},
+      {name:"Chicken Shredder Tool Twist — Meat Shredder for Chicken, Pork & Beef, Easy Clean",price:"$5.99",category:"Home & Kitchen",asin:"B0FBG6ZL5W",image:"https://m.media-amazon.com/images/I/81xGMNIZn0L._AC_SL1000_.jpg",rating:4.6,reviews:500},
+      {name:"Tree Hut Pink Hibiscus Body Scrub — Exfoliating Sugar Scrub, Shea Butter, Vegan",price:"$8.94",category:"Beauty & Personal Care",asin:"B0BWL4F6WY",image:"https://m.media-amazon.com/images/I/711iy+aPHoL._AC_SL1000_.jpg",rating:4.8,reviews:163500},
+      {name:"BIODANCE Bio-Collagen Real Deep Mask — Overnight Hydrogel, Korean Skin Care 4 Pack",price:"$19.00",category:"Beauty & Personal Care",asin:"B0B2RM68G2",image:"https://m.media-amazon.com/images/I/51ubxqzNGIL._AC_SL1000_.jpg",rating:4.5,reviews:45500},
+      {name:"NAZANO 24K Gold Under Eye Patches — 60 Pairs, Dark Circles & Puffiness Relief",price:"$7.98",category:"Beauty & Personal Care",asin:"B09NXS395V",image:"https://m.media-amazon.com/images/I/71w25DflEoL._AC_SL1000_.jpg",rating:4.2,reviews:15200},
+      {name:"KAHI Wrinkle Bounce Multi Balm Stick — Korean Collagen All-in-One Moisturizer",price:"$14.99",category:"Beauty & Personal Care",asin:"B0DDC3QGJL",image:"https://m.media-amazon.com/images/I/51lvbDfQ7UL._AC_SL1000_.jpg",rating:4.2,reviews:7900},
+      {name:"Perytong Sleep Headphones Wireless — Bluetooth Headband for Sleeping & Workout",price:"$15.99",category:"Electronics",asin:"B0CGTK2NC7",image:"https://m.media-amazon.com/images/I/810p2QGLVOL._AC_SL1000_.jpg",rating:4.2,reviews:51100},
+      {name:"EBODA Bluetooth Shower Speaker — IP67 Waterproof, HD Sound, Suction Cup, Portable",price:"$19.99",category:"Electronics",asin:"B083933VFT",image:"https://m.media-amazon.com/images/I/71czav1K8YL._AC_SL1000_.jpg",rating:4.5,reviews:17200},
+      {name:"[2026 New] Retractable Car Charger 84W — PD 45W USB-C + QC 3.0, Ultra Compact",price:"$16.98",category:"Electronics",asin:"B0DPQBZSX2",image:"https://m.media-amazon.com/images/I/61NAhX2EPYL._AC_SL1000_.jpg",rating:4.5,reviews:1200},
+      {name:"LifeStraw Personal Water Filter — Hiking, Camping, Travel & Emergency Use",price:"$15.47",category:"Sports & Outdoors",asin:"B006QF3TW4",image:"https://m.media-amazon.com/images/I/610MT9qiRyL._AC_SL1000_.jpg",rating:4.8,reviews:124500},
+      {name:"Hikenture Ultralight Inflatable Camping Pillow — Washable Travel Air Pillow",price:"$22.99",category:"Sports & Outdoors",asin:"B0896WCB5D",image:"https://m.media-amazon.com/images/I/71FXUUQpI-L._AC_SL1000_.jpg",rating:4.5,reviews:10800},
+      {name:"Earth Rated Dog Wipes — Hypoallergenic 3-in-1 Grooming, Lavender, 100 Count",price:"$9.98",category:"Pet Supplies",asin:"B07NHGX19F",image:"https://m.media-amazon.com/images/I/71Ac-mz8YOL._AC_SL1000_.jpg",rating:4.6,reviews:66600},
+      {name:"Paw Science Dog Ear Cleaner Wipes — Finger Wipes for Dogs & Cats, Soothing Aloe",price:"$8.49",category:"Pet Supplies",asin:"B0DNTBPP74",image:"https://m.media-amazon.com/images/I/71ctxokGBkL._AC_SL1000_.jpg",rating:4.7,reviews:2700},
+      {name:"Pet Feeding Mat — Absorbent Waterproof Placemat, Non-Slip Silicone, Easy Clean",price:"$9.99",category:"Pet Supplies",asin:"B0CFY9LC2J",image:"https://m.media-amazon.com/images/I/71zw+BZoIEL._AC_SL1000_.jpg",rating:4.5,reviews:6000}
     ];
 
     function starsHTML(rating) {
