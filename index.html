@@ -155,7 +155,7 @@
 
   <div class="categories" id="category-filters">
     <button class="cat-btn active" onclick="filterProducts('all')">All</button>
-    <button class="cat-btn" onclick="filterProducts('Home & Kitchen')">🏠 Kitchen</button>
+    <button class="cat-btn" onclick="filterProducts('Kitchen')">🏠 Kitchen</button>
     <button class="cat-btn" onclick="filterProducts('Beauty')">✨ Beauty</button>
     <button class="cat-btn" onclick="filterProducts('Electronics')">⚡ Electronics</button>
     <button class="cat-btn" onclick="filterProducts('Pet Supplies')">🐾 Pets</button>
@@ -172,35 +172,154 @@
       <a href="articles/privacy.html">Privacy Policy</a>
       <a href="articles/disclaimer.html">Disclaimer</a>
     </div>
-    <p>As an Amazon Associate we earn from qualifying purchases. © 2026 TopFindGuide</p>
+    <p>As an Amazon Associate we earn from qualifying purchases. &copy; 2026 TopFindGuide</p>
   </footer>
 
   <script>
     const PRODUCTS = [
-      {name:"TrendPlain 16oz Glass Olive Oil Sprayer — 2 in 1 Dispenser for Cooking & Air Fryer",price:"$8.99",category:"Home & Kitchen",asin:"B0CJF94M8J",image:"https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg",rating:4.6,reviews:40900},
-      {name:"Zulay Kitchen Silicone Spoon Rest — High Heat-Resistant, BPA-Free Utensil Holder",price:"$7.59",category:"Home & Kitchen",asin:"B07PVBS863",image:"https://m.media-amazon.com/images/I/71T2MibEcOL._AC_SL1000_.jpg",rating:4.7,reviews:42800},
-      {name:"Stainless Steel Onion Holder for Slicing — Onion Cutter, Safe Grip, Avocado Tool",price:"$4.97",category:"Home & Kitchen",asin:"B08TWN43G4",image:"https://m.media-amazon.com/images/I/71GTPDTsoPL._AC_SL1000_.jpg",rating:4.6,reviews:5400},
-      {name:"Chicken Shredder Tool Twist — Meat Shredder for Chicken, Pork & Beef, Easy Clean",price:"$5.99",category:"Home & Kitchen",asin:"B0FBG6ZL5W",image:"https://m.media-amazon.com/images/I/81xGMNIZn0L._AC_SL1000_.jpg",rating:4.6,reviews:500},
-      {name:"Tree Hut Pink Hibiscus Body Scrub — Exfoliating Sugar Scrub, Shea Butter, Vegan",price:"$8.94",category:"Beauty & Personal Care",asin:"B0BWL4F6WY",image:"https://m.media-amazon.com/images/I/711iy+aPHoL._AC_SL1000_.jpg",rating:4.8,reviews:163500},
-      {name:"BIODANCE Bio-Collagen Real Deep Mask — Overnight Hydrogel, Korean Skin Care 4 Pack",price:"$19.00",category:"Beauty & Personal Care",asin:"B0B2RM68G2",image:"https://m.media-amazon.com/images/I/51ubxqzNGIL._AC_SL1000_.jpg",rating:4.5,reviews:45500},
-      {name:"NAZANO 24K Gold Under Eye Patches — 60 Pairs, Dark Circles & Puffiness Relief",price:"$7.98",category:"Beauty & Personal Care",asin:"B09NXS395V",image:"https://m.media-amazon.com/images/I/71w25DflEoL._AC_SL1000_.jpg",rating:4.2,reviews:15200},
-      {name:"KAHI Wrinkle Bounce Multi Balm Stick — Korean Collagen All-in-One Moisturizer",price:"$14.99",category:"Beauty & Personal Care",asin:"B0DDC3QGJL",image:"https://m.media-amazon.com/images/I/51lvbDfQ7UL._AC_SL1000_.jpg",rating:4.2,reviews:7900},
-      {name:"Perytong Sleep Headphones Wireless — Bluetooth Headband for Sleeping & Workout",price:"$15.99",category:"Electronics",asin:"B0CGTK2NC7",image:"https://m.media-amazon.com/images/I/810p2QGLVOL._AC_SL1000_.jpg",rating:4.2,reviews:51100},
-      {name:"EBODA Bluetooth Shower Speaker — IP67 Waterproof, HD Sound, Suction Cup, Portable",price:"$19.99",category:"Electronics",asin:"B083933VFT",image:"https://m.media-amazon.com/images/I/71czav1K8YL._AC_SL1000_.jpg",rating:4.5,reviews:17200},
-      {name:"[2026 New] Retractable Car Charger 84W — PD 45W USB-C + QC 3.0, Ultra Compact",price:"$16.98",category:"Electronics",asin:"B0DPQBZSX2",image:"https://m.media-amazon.com/images/I/61NAhX2EPYL._AC_SL1000_.jpg",rating:4.5,reviews:1200},
-      {name:"LifeStraw Personal Water Filter — Hiking, Camping, Travel & Emergency Use",price:"$15.47",category:"Sports & Outdoors",asin:"B006QF3TW4",image:"https://m.media-amazon.com/images/I/610MT9qiRyL._AC_SL1000_.jpg",rating:4.8,reviews:124500},
-      {name:"Hikenture Ultralight Inflatable Camping Pillow — Washable Travel Air Pillow",price:"$22.99",category:"Sports & Outdoors",asin:"B0896WCB5D",image:"https://m.media-amazon.com/images/I/71FXUUQpI-L._AC_SL1000_.jpg",rating:4.5,reviews:10800},
-      {name:"Earth Rated Dog Wipes — Hypoallergenic 3-in-1 Grooming, Lavender, 100 Count",price:"$9.98",category:"Pet Supplies",asin:"B07NHGX19F",image:"https://m.media-amazon.com/images/I/71Ac-mz8YOL._AC_SL1000_.jpg",rating:4.6,reviews:66600},
-      {name:"Paw Science Dog Ear Cleaner Wipes — Finger Wipes for Dogs & Cats, Soothing Aloe",price:"$8.49",category:"Pet Supplies",asin:"B0DNTBPP74",image:"https://m.media-amazon.com/images/I/71ctxokGBkL._AC_SL1000_.jpg",rating:4.7,reviews:2700},
-      {name:"Pet Feeding Mat — Absorbent Waterproof Placemat, Non-Slip Silicone, Easy Clean",price:"$9.99",category:"Pet Supplies",asin:"B0CFY9LC2J",image:"https://m.media-amazon.com/images/I/71zw+BZoIEL._AC_SL1000_.jpg",rating:4.5,reviews:6000}
-    ];
+      {
+            "name": "TrendPlain 16oz Glass Olive Oil Sprayer \u2014 2 in 1 Dispenser for Cooking & Air Fryer",
+            "price": "$8.99",
+            "category": "Kitchen",
+            "asin": "B0CJF94M8J",
+            "image": "https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg",
+            "rating": 4.6,
+            "reviews": 41100
+      },
+      {
+            "name": "Zulay Kitchen Spoon Rest for Multiple Utensils \u2014 Heat-Resistant Silicone Drip Pad",
+            "price": "$7.59",
+            "category": "Kitchen",
+            "asin": "B07PVBS863",
+            "image": "https://m.media-amazon.com/images/I/71T2MibEcOL._AC_SL1000_.jpg",
+            "rating": 4.7,
+            "reviews": 42800
+      },
+      {
+            "name": "Stainless Steel Onion Holder for Slicing \u2014 Safe Grip Onion Cutter & Avocado Tool",
+            "price": "$4.97",
+            "category": "Kitchen",
+            "asin": "B08TWN43G4",
+            "image": "https://m.media-amazon.com/images/I/71GTPDTsoPL._AC_SL1000_.jpg",
+            "rating": 4.5,
+            "reviews": 5400
+      },
+      {
+            "name": "Tree Hut Pink Hibiscus Body Scrub \u2014 Exfoliating Sugar Scrub with Shea Butter, 18 Oz",
+            "price": "$8.94",
+            "category": "Beauty",
+            "asin": "B0BWL4F6WY",
+            "image": "https://m.media-amazon.com/images/I/711iy+aPHoL._AC_SL1000_.jpg",
+            "rating": 4.8,
+            "reviews": 163600
+      },
+      {
+            "name": "BIODANCE Bio-Collagen Real Deep Mask \u2014 Hydrating Overnight Hydrogel Face Mask, 4-Pack",
+            "price": "$19.00",
+            "category": "Beauty",
+            "asin": "B0B2RM68G2",
+            "image": "https://m.media-amazon.com/images/I/51ubxqzNGIL._AC_SL1000_.jpg",
+            "rating": 4.5,
+            "reviews": 45600
+      },
+      {
+            "name": "Good Molecules Yerba Mate Wake Up Eye Gel \u2014 With Hyaluronic Acid & Caffeine",
+            "price": "$5.94",
+            "category": "Beauty",
+            "asin": "B091NJQ29P",
+            "image": "https://m.media-amazon.com/images/I/71QsFtfDUCL._AC_SL1000_.jpg",
+            "rating": 4.3,
+            "reviews": 31200
+      },
+      {
+            "name": "TORRAS Ultra-Durable Car Phone Holder \u2014 96LBS Strongest Suction, Dashboard Mount",
+            "price": "$25.99",
+            "category": "Electronics",
+            "asin": "B07T6SX1JT",
+            "image": "https://m.media-amazon.com/images/I/81naSUa8tgL._AC_SL1000_.jpg",
+            "rating": 4.4,
+            "reviews": 24800
+      },
+      {
+            "name": "Outdoor Bluetooth Speaker with Flame Lights \u2014 Cool Tech Gift for 2026",
+            "price": "$25.70",
+            "category": "Electronics",
+            "asin": "B0C8JQHKMT",
+            "image": "https://m.media-amazon.com/images/I/71S6JCrCKML._AC_SL1000_.jpg",
+            "rating": 4.5,
+            "reviews": 767
+      },
+      {
+            "name": "Magcubic 2026 Upgraded Mini Projector \u2014 WiFi Bluetooth, 4K Support, Portable",
+            "price": "$49.99",
+            "category": "Electronics",
+            "asin": "B0F53F8DB3",
+            "image": "https://m.media-amazon.com/images/I/51jz--WlTWL._AC_SL1000_.jpg",
+            "rating": 4.2,
+            "reviews": 559
+      },
+      {
+            "name": "Maxpower Planet Pet Grooming Rake \u2014 Double-Sided Deshedding & Dematting Tool",
+            "price": "$16.99",
+            "category": "Pet Supplies",
+            "asin": "B07P2N8HQH",
+            "image": "https://m.media-amazon.com/images/I/81W9cwmEfpL._AC_SL1000_.jpg",
+            "rating": 4.6,
+            "reviews": 57400
+      },
+      {
+            "name": "Virbac C.E.T. Enzymatic Toothpaste for Dogs & Cats \u2014 Poultry Flavor, Tartar Control",
+            "price": "$11.89",
+            "category": "Pet Supplies",
+            "asin": "B00RZDXA7K",
+            "image": "https://m.media-amazon.com/images/I/615kpAAZ9wL._AC_SL1000_.jpg",
+            "rating": 4.6,
+            "reviews": 18300
+      },
+      {
+            "name": "Earth Rated Pet Wipes \u2014 Hypoallergenic 3-in-1 Cleaning, White Tea & Basil Scent, 100ct",
+            "price": "$9.98",
+            "category": "Pet Supplies",
+            "asin": "B0DP7ZCLLK",
+            "image": "https://m.media-amazon.com/images/I/61QAYp4+tuL._AC_SL1000_.jpg",
+            "rating": 4.7,
+            "reviews": 1500
+      },
+      {
+            "name": "MEKER Fire Color Changing Packets \u2014 Magic Colorful Flames for Campfire & Fire Pit (12 Pack)",
+            "price": "$7.95",
+            "category": "Sports & Outdoors",
+            "asin": "B0C9THKCWY",
+            "image": "https://m.media-amazon.com/images/I/71-zlcjUwHL._AC_SL1000_.jpg",
+            "rating": 4.7,
+            "reviews": 2400
+      },
+      {
+            "name": "Coghlan's Multi-Spice Shakers \u2014 Compact 6-in-1 Seasoning Containers for Camping",
+            "price": "$11.24",
+            "category": "Sports & Outdoors",
+            "asin": "B0FT6D8FH2",
+            "image": "https://m.media-amazon.com/images/I/71eKZMuzKiL._AC_SL1000_.jpg",
+            "rating": 4.5,
+            "reviews": 11200
+      },
+      {
+            "name": "Camping Essentials Body Wipes \u2014 50 XL No-Rinse Bathing Shower Wipes for Adults",
+            "price": "$11.69",
+            "category": "Sports & Outdoors",
+            "asin": "B0FB971CN3",
+            "image": "https://m.media-amazon.com/images/I/81b67xwMLsL._AC_SL1000_.jpg",
+            "rating": 4.6,
+            "reviews": 958
+      }
+];
 
     function starsHTML(rating) {
       const full = Math.floor(rating);
       const half = rating % 1 >= 0.5 ? 1 : 0;
       let html = '';
-      for (let i = 0; i < full; i++) html += '★';
-      if (half) html += '½';
+      for (let i = 0; i < full; i++) html += '\u2605';
+      if (half) html += '\u00BD';
       return html;
     }
 
@@ -246,4 +365,4 @@
   </script>
 </body>
 </html>
-<!-- 16 products -->
+<!-- 15 products -->
