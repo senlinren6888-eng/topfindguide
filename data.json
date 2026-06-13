@@ -1,8 +1,6 @@
 {
-  "updated": "2026-06-12T21:06:01.061550",
+  "updated": "2026-06-13T21:04:55.154521",
   "tracking_id": "topfindguide2-20",
-  "project": "TopFindGuide",
-  "site_url": "https://topfindguide.pages.dev",
   "total_products": 15,
   "categories": {
     "Kitchen": 3,
@@ -13,139 +11,154 @@
   },
   "products": [
     {
-      "asin": "B0CJF94M8J",
-      "name": "TrendPlain 16oz Glass Olive Oil Sprayer for Cooking - 2 in 1 Olive Oil Dispenser Bottle",
-      "price": "$8.99",
-      "rating": 4.6,
-      "reviews": 41100,
-      "category": "Kitchen",
-      "url": "https://www.amazon.com/dp/B0CJF94M8J/ref=nosim?tag=topfindguide2-20"
-    },
-    {
-      "asin": "B07PVBS863",
-      "name": "Zulay Kitchen Spoon Rest for Multiple Utensils - Heat-Resistant Silicone Drip Pad",
-      "price": "$7.59",
-      "rating": 4.7,
-      "reviews": 42800,
-      "category": "Kitchen",
-      "url": "https://www.amazon.com/dp/B07PVBS863/ref=nosim?tag=topfindguide2-20"
-    },
-    {
       "asin": "B08TWN43G4",
-      "name": "Stainless Steel Onion Holder for Slicing, Onion Cutter Tool",
+      "name": "Stainless Steel Onion Holder for Slicing, Onion Slicer Holder, Onion Cutter for Slicing of Onions, Tomatoes, Avocados, Eggs and Other Vegetables, Kitchen Utensils",
       "price": "$4.97",
       "rating": 4.5,
       "reviews": 5400,
       "category": "Kitchen",
-      "url": "https://www.amazon.com/dp/B08TWN43G4/ref=nosim?tag=topfindguide2-20"
+      "url": "https://www.amazon.com/dp/B08TWN43G4/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71GTPDTsoPL._AC_SL1000_.jpg"
     },
     {
-      "asin": "B0BWL4F6WY",
-      "name": "Tree Hut Pink Hibiscus Body Scrub, Exfoliating Sugar Scrub with Shea Butter",
-      "price": "$8.94",
-      "rating": 4.8,
-      "reviews": 163600,
-      "category": "Beauty",
-      "url": "https://www.amazon.com/dp/B0BWL4F6WY/ref=nosim?tag=topfindguide2-20"
+      "asin": "B0FBG6ZL5W",
+      "name": "Chicken Shredder - Chicken Breast Shredder Tool Twist, Clear Meat Grinders Shredder Tool Twist for Pork Beef Chicken - BPA Free",
+      "price": "$5.99",
+      "rating": 4.6,
+      "reviews": 3200,
+      "category": "Kitchen",
+      "url": "https://www.amazon.com/dp/B0FBG6ZL5W/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/81xGMNIZn0L._AC_SL1000_.jpg"
     },
     {
-      "asin": "B0B2RM68G2",
-      "name": "BIODANCE Bio-Collagen Real Deep Mask, Hydrating Overnight Hydrogel Face Mask",
-      "price": "$19.00",
-      "rating": 4.5,
-      "reviews": 45600,
-      "category": "Beauty",
-      "url": "https://www.amazon.com/dp/B0B2RM68G2/ref=nosim?tag=topfindguide2-20"
+      "asin": "B0CJF94M8J",
+      "name": "TrendPlain 16oz Glass Olive Oil Sprayer for Cooking - 2 in 1 Olive Oil Dispenser Bottle for Kitchen Gadgets and Air Fryer Accessories, Salad, BBQ - Black",
+      "price": "$8.99",
+      "rating": 4.6,
+      "reviews": 41100,
+      "category": "Kitchen",
+      "url": "https://www.amazon.com/dp/B0CJF94M8J/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/716HuBmcRsL._AC_SL1000_.jpg"
     },
     {
-      "asin": "B091NJQ29P",
-      "name": "Good Molecules Yerba Mate Wake Up Eye Gel with Hyaluronic Acid and Caffeine",
-      "price": "$5.94",
-      "rating": 4.3,
-      "reviews": 31200,
-      "category": "Beauty",
-      "url": "https://www.amazon.com/dp/B091NJQ29P/ref=nosim?tag=topfindguide2-20"
-    },
-    {
-      "asin": "B07T6SX1JT",
-      "name": "TORRAS Ultra-Durable Phone Holders for Your Car - 96LBS Strongest Suction Phone Mount",
-      "price": "$25.99",
-      "rating": 4.4,
-      "reviews": 24800,
-      "category": "Electronics",
-      "url": "https://www.amazon.com/dp/B07T6SX1JT/ref=nosim?tag=topfindguide2-20"
-    },
-    {
-      "asin": "B0C8JQHKMT",
-      "name": "Outdoor Bluetooth Speaker with Flame Lights, Cool Tech Gift for 2026",
-      "price": "$25.70",
-      "rating": 4.5,
-      "reviews": 767,
-      "category": "Electronics",
-      "url": "https://www.amazon.com/dp/B0C8JQHKMT/ref=nosim?tag=topfindguide2-20"
-    },
-    {
-      "asin": "B0F53F8DB3",
-      "name": "Magcubic 2026 Upgraded HY300PRO Mini Projector with WiFi Bluetooth, 4K Support",
-      "price": "$49.99",
+      "asin": "B09NXS395V",
+      "name": "NAZANO 24K Gold Under Eye Patches - 60 Pack for Puffy Eyes, Dark Circles, Bags & Wrinkles with Collagen & Hyaluronic Acid - Eye Care Pads for Daily Skincare",
+      "price": "$9.27",
       "rating": 4.2,
-      "reviews": 559,
+      "reviews": 8500,
+      "category": "Beauty",
+      "url": "https://www.amazon.com/dp/B09NXS395V/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71w25DflEoL._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B0C4FY8FXW",
+      "name": "grace & stella Award Winning Under Eye Mask - Reduce Dark Circles, Puffy Eyes, Undereye Bags, Wrinkles - Vegan Cruelty-Free (Pink, 6 Pairs)",
+      "price": "$9.96",
+      "rating": 4.4,
+      "reviews": 12500,
+      "category": "Beauty",
+      "url": "https://www.amazon.com/dp/B0C4FY8FXW/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/61YyDYhIL4L._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B09P8981CB",
+      "name": "Ice Roller for Face and Eye, Facial Beauty Ice Roller Skin Care Tools, Ice Facial Cube, Gua Sha Face Massage, Silicone Ice Mold",
+      "price": "$5.99",
+      "rating": 4.4,
+      "reviews": 21800,
+      "category": "Beauty",
+      "url": "https://www.amazon.com/dp/B09P8981CB/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/6130FHy3gXL._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B0F1TJRS7F",
+      "name": "2026 Apple MFi Certified Wallet Tracker Smart Card for Find My iPhone - Ultra Thin Air Tracker Tag, IP69 Waterproof, 5 Years+ Battery",
+      "price": "$29.99",
+      "rating": 4.3,
+      "reviews": 3800,
       "category": "Electronics",
-      "url": "https://www.amazon.com/dp/B0F53F8DB3/ref=nosim?tag=topfindguide2-20"
+      "url": "https://www.amazon.com/dp/B0F1TJRS7F/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71PknBrtoNL._AC_SL1000_.jpg"
     },
     {
-      "asin": "B07P2N8HQH",
-      "name": "Maxpower Planet Original Pet Grooming Rake - Double-Sided Deshedding Dematting Tool",
-      "price": "$16.99",
+      "asin": "B0H26PHM3S",
+      "name": "AI Language Translator Device, 2026 Upgraded VORMOR, No WiFi Needed, Support ChatGPT, Instant Two-Way 150 Languages Translation, Offline/Photo Translation",
+      "price": "$89.99",
       "rating": 4.6,
-      "reviews": 57400,
-      "category": "Pet Supplies",
-      "url": "https://www.amazon.com/dp/B07P2N8HQH/ref=nosim?tag=topfindguide2-20"
+      "reviews": 1200,
+      "category": "Electronics",
+      "url": "https://www.amazon.com/dp/B0H26PHM3S/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/61PVmM2y3-L._AC_SL1000_.jpg"
     },
     {
-      "asin": "B00RZDXA7K",
-      "name": "Virbac C.E.T. Enzymatic Toothpaste for Dogs and Cats - Poultry Flavor",
-      "price": "$11.89",
-      "rating": 4.6,
-      "reviews": 18300,
-      "category": "Pet Supplies",
-      "url": "https://www.amazon.com/dp/B00RZDXA7K/ref=nosim?tag=topfindguide2-20"
+      "asin": "B0H1H3CZMD",
+      "name": "AI Real-Time Translation Earbuds 2026 - 144 Languages, 3 in 1 Wireless Earbuds for iOS/Android, Travel/Business/Learning",
+      "price": "$14.99",
+      "rating": 4.5,
+      "reviews": 2800,
+      "category": "Electronics",
+      "url": "https://www.amazon.com/dp/B0H1H3CZMD/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71RcO+phcWL._AC_SL1000_.jpg"
     },
     {
-      "asin": "B0DP7ZCLLK",
-      "name": "Earth Rated Pet Wipes for Dogs and Cats, Hypoallergenic 3-in-1 Cleaning",
+      "asin": "B0DNTBPP74",
+      "name": "Paw Science Dog Ear Cleaner Wipes - Finger Wipes for Dogs & Cats - Cleaning, Soothing & Deodorizing Itchy Ears - Pet Ear Relief Solution (Coconut)",
       "price": "$9.98",
       "rating": 4.7,
-      "reviews": 1500,
+      "reviews": 6500,
       "category": "Pet Supplies",
-      "url": "https://www.amazon.com/dp/B0DP7ZCLLK/ref=nosim?tag=topfindguide2-20"
+      "url": "https://www.amazon.com/dp/B0DNTBPP74/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71ctxokGBkL._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B0CFY9LC2J",
+      "name": "Pet Feeding Mat - Absorbent Pet Placemat for Food and Water Bowl, Waterproof Rubber Backing, Quick Dry Water Dispenser Mat for Dog and Cat (20\"x12\", Dark Gray)",
+      "price": "$6.98",
+      "rating": 4.5,
+      "reviews": 4200,
+      "category": "Pet Supplies",
+      "url": "https://www.amazon.com/dp/B0CFY9LC2J/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71zw+BZoIEL._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B09BBP8FP3",
+      "name": "Best Pet Supplies Interactive Squeaky Dog Chew Toy, Ideal Dog Toys for Chewers, Small, Medium & Large Dogs - Crinkle Duck (Light Pink, Large)",
+      "price": "$6.79",
+      "rating": 4.3,
+      "reviews": 15800,
+      "category": "Pet Supplies",
+      "url": "https://www.amazon.com/dp/B09BBP8FP3/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/61YXaR5qxQL._AC_SL1000_.jpg"
     },
     {
       "asin": "B0C9THKCWY",
-      "name": "MEKER Fire Color Changing Packets - Magic Colorful Campfire Flames (12 Pack)",
+      "name": "MEKER Fire Color Changing Packets - Magic Colorful Campfire Flames for Fire Pit, Campfires, Outdoor Fireplaces, Bonfire (12 Pack)",
       "price": "$7.95",
       "rating": 4.7,
       "reviews": 2400,
       "category": "Sports and Outdoors",
-      "url": "https://www.amazon.com/dp/B0C9THKCWY/ref=nosim?tag=topfindguide2-20"
+      "url": "https://www.amazon.com/dp/B0C9THKCWY/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71-zlcjUwHL._AC_SL1000_.jpg"
+    },
+    {
+      "asin": "B0D1VM8CDJ",
+      "name": "Solar Camping String Lights, 39.4 FT Fairy String Light, 4 in 1 Portable Waterproof Camp LED Lamp with 8 Lighting Modes, USB Rechargeable Tent Lantern",
+      "price": "$27.88",
+      "rating": 4.5,
+      "reviews": 3200,
+      "category": "Sports and Outdoors",
+      "url": "https://www.amazon.com/dp/B0D1VM8CDJ/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/81LFwzyz1SL._AC_SL1000_.jpg"
     },
     {
       "asin": "B0FT6D8FH2",
-      "name": "Coghlan Multi-Spice Shakers - Compact 6-in-1 Seasoning Containers for Camping",
+      "name": "Coghlan's Multi-Spice Shakers - Compact 6-in-1 Seasoning Containers for Camping, Travel, BBQ & Everyday Cooking - Lightweight, Portable, Made in USA",
       "price": "$11.24",
       "rating": 4.5,
       "reviews": 11200,
       "category": "Sports and Outdoors",
-      "url": "https://www.amazon.com/dp/B0FT6D8FH2/ref=nosim?tag=topfindguide2-20"
-    },
-    {
-      "asin": "B0FB971CN3",
-      "name": "Camping Essentials Body Wipes for Adults - No Rinse Bathing Shower Wipes (50 XL)",
-      "price": "$11.69",
-      "rating": 4.6,
-      "reviews": 958,
-      "category": "Sports and Outdoors",
-      "url": "https://www.amazon.com/dp/B0FB971CN3/ref=nosim?tag=topfindguide2-20"
+      "url": "https://www.amazon.com/dp/B0FT6D8FH2/ref=nosim?tag=topfindguide2-20",
+      "img": "https://m.media-amazon.com/images/I/71eKZMuzKiL._AC_SL1000_.jpg"
     }
   ]
 }
